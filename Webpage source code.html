@@ -1,0 +1,637 @@
+﻿<html lang ="en">
+<head>
+<title>Open Source & License</title>
+<meta content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="front page title.css">
+    <link rel="icon" href="assets/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="sidemenu" class="sidemenu">
+        <a href="javascript:void()" class="close" onclick="close_menu()" style="margin-top:10px;background:#05386b">&times;</a>
+        <a href="javascript:void()" onclick="scrollto('frontpage')"><p class="material-icons">home</p>FRONT PAGE</a>
+        <a href="javascript:void()" onclick="scrollto('abstract')" style="margin-top:15px"><p class="material-icons">font_download</p>ABSTRACT</a>
+        <a href="javascript:void()" onclick="scrollto('opensource')" style="margin-top:15px"><p class="material-icons">article</p>OPEN SOURCE</a>
+        <a href="javascript:void()" onclick="scrollto('license')" style="margin-top:15px"><p class="material-icons">chrome_reader_mode</p>LICENSE</a>
+        <a href="javascript:void()" onclick="scrollto('licensework')" style="margin-top:15px"><p class="material-icons">settings</p>HOW IT WORKS</a>
+        <a href="javascript:void()" onclick="scrollto('stillneed')" style="display:flex;align-items:center;margin-top:15px"><p class="material-icons" style="float:left">new_releases</p>NEED FOR LICENSE</a>
+        <div class="container">
+            <a href="javascript:void()" onclick="scrollto('example')" style="display:flex;align-items:center;margin-top:20px">POPULAR OPEN SOURCE LICENSES<p style="float:right;font-size:30px" class="material-icons arrow">arrow_drop_down</p></a>
+                <div class="dropdown" style="margin-top:20px;width:200px">
+                    <div style="height:1px"></div>
+                        <a href="javascript:void()" onclick="scrollto('gnu')" style="display:flex;align-items:center;padding-left:15px;margin-left:0"><p class="material-icons" style="float:left">keyboard_arrow_right</p>GNU GPLv3</a>
+                        <a href="javascript:void()" onclick="scrollto('mit')" style="display:flex;align-items:center;padding-left:15px;margin-left:0"><p class="material-icons" style="float:left">keyboard_arrow_right</p>MIT LICENSE</a>
+                        <a href="javascript:void()" onclick="scrollto('apache')" style="display:flex;align-items:center;padding-left:15px;margin-left:0"><p class="material-icons" style="float:left">keyboard_arrow_right</p>APACHE LICENSE 2.0</a>
+                    <div style="height:20px"></div>
+                </div>
+        </div>
+        <a href="javascript:void()" onclick="scrollto('evaluation')" style="margin-top:15px"><p class="material-icons">assignment_turned_in</p>EVALUATION</a>
+        <a href="javascript:void()" onclick="scrollto('info')"" style="margin-top:15px"><p class="material-icons">info</p>CREDITS</a>
+    </div>
+
+    
+
+    <div class="topbar">
+        <a class="menu" style="font-size:25px;margin-left:2px" href="javascript:void()" onclick="open_menu()"><i class="material-icons" style="color:#05386b">menu</i>Menu</a>
+    </div>
+    
+    
+    <div class="frontpage">
+        <div style="height:120px" id="frontpage"></div>
+            <div style="color:#edf5e1;font-family:Verdana;font-size:165px;letter-spacing:10px;text-align:center;margin-top:10%">
+                <div class="background"></div>
+                <svg fill="none" version="1.1" id="title" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="1308.7px" height="328px" viewBox="0 0 1308.7 328" style="overflow:visible;enable-background:new 0 0 1308.7 328;"
+                xml:space="preserve">
+                <style type="text/css">
+                .st0{stroke:#EDF5E1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;}
+                </style>
+                <defs>
+                </defs>
+                <g>
+                <g>
+                <path class="st0" d="M126.2,65c0,19.1-5.5,34.3-16.4,45.6c-11,11.3-26.1,16.9-45.4,16.9c-19.3,0-34.4-5.6-45.4-16.9
+                    C8,99.3,2.5,84.1,2.5,65c0-19.3,5.5-34.5,16.4-45.7C29.9,8.1,45,2.5,64.3,2.5c19.2,0,34.3,5.6,45.4,16.8
+                    C120.7,30.5,126.2,45.7,126.2,65z M85.2,95.4c3-3.7,5.2-8,6.7-12.9c1.5-5,2.2-10.8,2.2-17.5c0-7.2-0.8-13.3-2.5-18.4
+                    c-1.7-5-3.8-9.1-6.5-12.2c-2.7-3.2-5.9-5.6-9.5-7c-3.6-1.5-7.3-2.2-11.2-2.2c-3.9,0-7.6,0.7-11.1,2.1c-3.5,1.4-6.6,3.7-9.5,6.9
+                    c-2.7,3-4.9,7.2-6.6,12.4C35.5,51.9,34.6,58,34.6,65c0,7.1,0.8,13.2,2.5,18.2c1.6,5,3.8,9.1,6.5,12.3c2.7,3.2,5.8,5.5,9.4,7
+                    c3.6,1.5,7.4,2.3,11.4,2.3c4,0,7.8-0.8,11.4-2.3C79.3,101,82.5,98.6,85.2,95.4z"/>
+                <path class="st0" d="M248.8,42.9c0,5.4-0.9,10.6-2.8,15.8c-1.9,5.1-4.6,9.4-8.1,12.9c-4.8,4.7-10.1,8.3-16,10.7
+                    c-5.9,2.4-13.2,3.6-22,3.6h-19.3V125h-30.9V5h50.9c7.6,0,14.1,0.7,19.3,2c5.2,1.3,9.9,3.3,13.9,5.9c4.8,3.2,8.5,7.2,11.1,12.2
+                    C247.5,30,248.8,35.9,248.8,42.9z M216.8,43.6c0-3.4-0.9-6.3-2.7-8.7c-1.8-2.4-3.9-4.1-6.4-5.1c-3.2-1.3-6.4-2-9.4-2.1
+                    c-3.1-0.1-7.1-0.2-12.2-0.2h-5.3v35.9h8.9c5.3,0,9.6-0.3,13-1c3.4-0.6,6.3-1.9,8.6-3.9c2-1.7,3.4-3.8,4.3-6.1
+                    C216.4,49.9,216.8,47,216.8,43.6z"/>
+                <path class="st0" d="M357.5,125h-86.8V5h86.8v23.2h-56v20.7h52v23.2h-52v29.6h56V125z"/>
+                <path class="st0" d="M492.5,125h-29.8l-50.9-82.3V125h-28.4V5h37l43.7,68.7V5h28.4V125z"/>
+                <path class="st0" d="M675.6,87.3c0,11.8-5,21.4-15,28.8c-10,7.4-23.6,11.1-40.8,11.1c-9.9,0-18.6-0.9-26-2.6
+                    c-7.4-1.7-14.3-4-20.7-6.6V89.1h3.4c6.4,5.1,13.5,9,21.5,11.8c7.9,2.7,15.5,4.1,22.8,4.1c1.9,0,4.4-0.2,7.4-0.5s5.6-0.9,7.5-1.6
+                    c2.4-1,4.3-2.2,5.8-3.6c1.5-1.5,2.3-3.6,2.3-6.4c0-2.6-1.1-4.9-3.3-6.8c-2.2-1.9-5.5-3.4-9.8-4.4c-4.5-1.1-9.3-2.1-14.3-3
+                    c-5-0.9-9.7-2.1-14.1-3.6c-10.1-3.3-17.4-7.7-21.8-13.3c-4.4-5.6-6.6-12.6-6.6-20.9c0-11.2,5-20.3,15-27.4
+                    c10-7.1,22.9-10.6,38.6-10.6c7.9,0,15.7,0.8,23.4,2.3c7.7,1.5,14.4,3.5,20,5.8v27.6h-3.3c-4.8-3.9-10.8-7.1-17.8-9.7
+                    c-7-2.6-14.2-3.9-21.5-3.9c-2.6,0-5.1,0.2-7.7,0.5c-2.6,0.4-5,1-7.4,2c-2.1,0.8-3.9,2-5.4,3.7c-1.5,1.6-2.3,3.5-2.3,5.6
+                    c0,3.2,1.2,5.6,3.6,7.3c2.4,1.7,7,3.2,13.7,4.6c4.4,0.9,8.6,1.8,12.7,2.7c4.1,0.9,8.4,2,13.1,3.5c9.2,3,16,7.1,20.3,12.3
+                    C673.4,72.3,675.6,79,675.6,87.3z"/>
+                <path class="st0" d="M813.4,65c0,19.1-5.5,34.3-16.4,45.6c-11,11.3-26.1,16.9-45.4,16.9c-19.3,0-34.4-5.6-45.4-16.9
+                    c-11-11.3-16.4-26.4-16.4-45.6c0-19.3,5.5-34.5,16.4-45.7c11-11.2,26.1-16.8,45.4-16.8c19.2,0,34.3,5.6,45.4,16.8
+                    C807.9,30.5,813.4,45.7,813.4,65z M772.4,95.4c3-3.7,5.2-8,6.7-12.9c1.5-5,2.2-10.8,2.2-17.5c0-7.2-0.8-13.3-2.5-18.4
+                    c-1.7-5-3.8-9.1-6.5-12.2c-2.7-3.2-5.9-5.6-9.5-7c-3.6-1.5-7.3-2.2-11.2-2.2c-3.9,0-7.6,0.7-11.1,2.1c-3.5,1.4-6.6,3.7-9.5,6.9
+                    c-2.7,3-4.9,7.2-6.6,12.4c-1.7,5.3-2.5,11.4-2.5,18.4c0,7.1,0.8,13.2,2.5,18.2c1.6,5,3.8,9.1,6.5,12.3c2.7,3.2,5.8,5.5,9.4,7
+                    c3.6,1.5,7.4,2.3,11.4,2.3s7.8-0.8,11.4-2.3C766.6,101,769.7,98.6,772.4,95.4z"/>
+                <path class="st0" d="M942.1,81.5c0,14.8-4.5,26.2-13.5,34.1s-22.3,11.8-39.9,11.8s-30.8-3.9-39.8-11.8s-13.5-19.2-13.5-34V5h31.1
+                    v74.8c0,8.3,1.7,14.5,5.2,18.6c3.5,4.1,9.2,6.1,17,6.1c7.7,0,13.4-2,17-5.9c3.6-3.9,5.4-10.2,5.4-18.9V5h31.1V81.5z"/>
+                <path class="st0" d="M1086.5,125h-37.8l-32.6-44h-14.3v44H971V5h51.9c7.1,0,13.2,0.4,18.3,1.2s9.9,2.6,14.3,5.2
+                    c4.5,2.7,8.1,6.2,10.8,10.4c2.7,4.3,4,9.6,4,16.1c0,8.9-2.1,16.1-6.2,21.7c-4.1,5.6-10,10.2-17.6,13.9L1086.5,125z M1038.3,41.7
+                    c0-3-0.6-5.6-1.9-7.7c-1.2-2.1-3.4-3.8-6.4-5.1c-2.1-0.9-4.5-1.4-7.3-1.6c-2.8-0.2-6-0.3-9.7-0.3h-11.2v32.3h9.5
+                    c4.9,0,9.1-0.2,12.4-0.7c3.3-0.5,6.1-1.6,8.4-3.3c2.1-1.7,3.7-3.5,4.7-5.5C1037.8,47.8,1038.3,45.1,1038.3,41.7z"/>
+                <path class="st0" d="M1154.3,127.3c-8.9,0-17.1-1.3-24.7-3.9c-7.5-2.6-14-6.6-19.5-11.8c-5.4-5.2-9.6-11.7-12.6-19.5
+                    c-3-7.8-4.5-16.8-4.5-27c0-9.5,1.4-18.1,4.3-25.9c2.8-7.7,7-14.4,12.4-19.9c5.2-5.3,11.7-9.4,19.4-12.3c7.7-2.9,16.1-4.4,25.3-4.4
+                    c5,0,9.6,0.3,13.7,0.8c4.1,0.6,7.8,1.3,11.2,2.2c3.6,1,6.9,2.2,9.8,3.4c2.9,1.3,5.5,2.4,7.7,3.5v29.1h-3.5
+                    c-1.5-1.3-3.4-2.8-5.7-4.6c-2.3-1.8-4.9-3.5-7.8-5.2c-3-1.7-6.2-3.2-9.6-4.3c-3.4-1.2-7.1-1.8-11-1.8c-4.4,0-8.5,0.7-12.4,2.1
+                    s-7.5,3.6-10.9,6.8c-3.2,3.1-5.7,7.1-7.7,12.1c-2,5-2.9,11.1-2.9,18.3c0,7.5,1.1,13.8,3.2,18.8c2.1,5,4.8,9,8,11.9
+                    c3.3,2.9,6.9,5.1,11,6.3c4,1.3,8,1.9,11.9,1.9c3.8,0,7.5-0.6,11.2-1.7c3.7-1.1,7.1-2.6,10.2-4.6c2.6-1.5,5.1-3.2,7.3-5
+                    s4.1-3.3,5.6-4.6h3.2V117c-3,1.3-5.9,2.6-8.6,3.8c-2.7,1.2-5.6,2.2-8.6,3.1c-3.9,1.1-7.6,2-11,2.6
+                    C1165,127,1160.3,127.3,1154.3,127.3z"/>
+                <path class="st0" d="M1306.2,125h-86.8V5h86.8v23.2h-56v20.7h52v23.2h-52v29.6h56V125z"/>
+                <path class="st0" d="M331.1,323h-38.3l-11.2-10.2c-5.4,4.2-11.3,7.4-17.8,9.5c-6.5,2.1-13.3,3.1-20.5,3.1
+                    c-14.8,0-26.5-3.4-34.9-10.3c-8.5-6.8-12.7-15.8-12.7-26.8c0-4.6,0.7-8.5,2-11.9c1.3-3.4,3.1-6.4,5.3-9.1c2.1-2.6,4.5-4.9,7.3-6.8
+                    c2.7-1.9,5.3-3.5,7.8-4.8c-2.3-1.7-4.4-3.4-6.4-5.2c-2-1.8-3.8-3.8-5.3-6c-1.5-2-2.6-4.3-3.4-6.8c-0.8-2.5-1.2-5.4-1.2-8.5
+                    c0-3.8,0.8-7.3,2.4-10.6c1.6-3.3,4-6.3,7.3-8.9c3.3-2.7,7.8-5,13.4-6.6c5.6-1.7,12.3-2.5,20-2.5c6.5,0,12.3,0.6,17.4,1.9
+                    c5.1,1.3,9.4,3.1,12.9,5.5c3.3,2.3,5.8,5,7.5,8.2c1.7,3.2,2.6,6.6,2.6,10.4c0,2.5-0.4,5.2-1.1,8.1c-0.7,3-2.1,5.8-4,8.4
+                    c-2.1,2.8-4.9,5.4-8.3,7.8c-3.4,2.4-8.1,4.6-14.1,6.4l24.7,21.6v-25.9h30.1v8.9c0,6.3-1.1,12.4-3.2,18.2
+                    c-2.1,5.8-5.1,10.6-8.9,14.4l30.7,26.8V323z M267.3,299.2L233,268.6c-1.1,1.1-2.3,3-3.8,5.8c-1.4,2.8-2.1,5.8-2.1,9.2
+                    c0,3.6,0.7,6.7,2.1,9.3s3.1,4.7,5.2,6.4c2.1,1.7,4.5,3,7.2,3.9c2.6,0.9,5.2,1.3,7.7,1.3c3.7,0,6.9-0.4,9.7-1.1
+                    C261.8,302.7,264.5,301.3,267.3,299.2z M255.2,230c0-2.8-0.4-5-1.3-6.6c-0.9-1.6-1.9-2.9-3.1-3.7c-1.3-0.9-2.6-1.4-4-1.6
+                    c-1.4-0.2-2.5-0.3-3.4-0.3c-0.9,0-1.9,0.1-3.1,0.3c-1.2,0.2-2.4,0.8-3.8,1.7c-1.1,0.8-2.1,1.9-3,3.3c-0.9,1.5-1.3,3.4-1.3,5.8
+                    c0,3.2,1.3,6.2,3.9,9.2c2.6,3,5.9,6,10.1,9.1c3-2.4,5.3-5,6.8-7.9C254.4,236.4,255.2,233.3,255.2,230z"/>
+                <path class="st0" d="M486.4,323h-86.5V203h30.9v96.8h55.6V323z"/>
+                <path class="st0" d="M569.9,323h-70.3v-21.3h19.7v-77.4h-19.7V203h70.3v21.3h-19.7v77.4h19.7V323z"/>
+                <path class="st0" d="M649.3,325.3c-8.9,0-17.1-1.3-24.7-3.9c-7.5-2.6-14-6.6-19.5-11.8c-5.4-5.2-9.6-11.7-12.6-19.5
+                    c-3-7.8-4.5-16.8-4.5-27c0-9.5,1.4-18.1,4.3-25.9c2.8-7.7,7-14.4,12.4-19.9c5.2-5.3,11.7-9.4,19.4-12.3c7.7-2.9,16.1-4.4,25.3-4.4
+                    c5,0,9.6,0.3,13.7,0.8c4.1,0.6,7.8,1.3,11.2,2.2c3.6,1,6.9,2.2,9.8,3.4c2.9,1.3,5.5,2.4,7.7,3.5v29.1h-3.5
+                    c-1.5-1.3-3.4-2.8-5.7-4.6c-2.3-1.8-4.9-3.5-7.8-5.2c-3-1.7-6.2-3.2-9.6-4.3c-3.4-1.2-7.1-1.8-11-1.8c-4.4,0-8.5,0.7-12.4,2.1
+                    c-3.9,1.4-7.5,3.6-10.9,6.8c-3.2,3.1-5.7,7.1-7.7,12.1c-2,5-2.9,11.1-2.9,18.3c0,7.5,1.1,13.8,3.2,18.8c2.1,5,4.8,9,8,11.9
+                    c3.3,2.9,6.9,5.1,11,6.3s8,1.9,11.9,1.9c3.8,0,7.5-0.6,11.2-1.7c3.7-1.1,7.1-2.6,10.2-4.6c2.6-1.5,5.1-3.2,7.3-5
+                    c2.3-1.8,4.1-3.3,5.6-4.6h3.2V315c-3,1.3-5.9,2.6-8.6,3.8c-2.7,1.2-5.6,2.2-8.6,3.1c-3.9,1.1-7.6,2-11,2.6
+                    C660.1,325,655.3,325.3,649.3,325.3z"/>
+                <path class="st0" d="M801.3,323h-86.8V203h86.8v23.2h-56v20.7h52v23.2h-52v29.6h56V323z"/>
+                <path class="st0" d="M936.3,323h-29.8l-50.9-82.3V323h-28.4V203h37l43.7,68.7V203h28.4V323z"/>
+                <path class="st0" d="M1063,285.3c0,11.8-5,21.4-15,28.8c-10,7.4-23.6,11.1-40.8,11.1c-9.9,0-18.6-0.9-26-2.6
+                    c-7.4-1.7-14.3-4-20.7-6.6v-28.8h3.4c6.4,5.1,13.5,9,21.5,11.8c7.9,2.7,15.5,4.1,22.8,4.1c1.9,0,4.4-0.2,7.4-0.5
+                    c3.1-0.3,5.6-0.9,7.5-1.6c2.4-1,4.3-2.2,5.8-3.6c1.5-1.4,2.3-3.6,2.3-6.4c0-2.6-1.1-4.9-3.3-6.8c-2.2-1.9-5.5-3.4-9.8-4.4
+                    c-4.5-1.1-9.3-2.1-14.3-3c-5-0.9-9.7-2.1-14.1-3.6c-10.1-3.3-17.4-7.7-21.8-13.3c-4.4-5.6-6.6-12.6-6.6-20.9
+                    c0-11.2,5-20.3,15-27.4c10-7.1,22.9-10.6,38.6-10.6c7.9,0,15.7,0.8,23.4,2.3c7.7,1.5,14.4,3.5,20,5.8v27.6h-3.3
+                    c-4.8-3.9-10.8-7.1-17.8-9.7c-7-2.6-14.2-3.9-21.5-3.9c-2.6,0-5.1,0.2-7.7,0.5c-2.6,0.4-5,1-7.4,2c-2.1,0.8-3.9,2-5.4,3.7
+                    c-1.5,1.6-2.3,3.5-2.3,5.6c0,3.2,1.2,5.6,3.6,7.3c2.4,1.7,7,3.2,13.7,4.6c4.4,0.9,8.6,1.8,12.7,2.7c4.1,0.9,8.4,2,13.1,3.5
+                    c9.2,3,16,7.1,20.3,12.3C1060.8,270.3,1063,277,1063,285.3z"/>
+                <path class="st0" d="M1170.9,323h-86.8V203h86.8v23.2h-56v20.7h52v23.2h-52v29.6h56V323z"/>
+                </g>
+                </g>
+                </svg>
+            </div>
+        <div style="height: 400px;"></div>
+    </div>
+
+    <div style="background-image: url(assets/strokes2.svg);">
+        <div style="margin-left:50px;margin-right:400px;font-size: 50px;color:#05386b">
+            <div style="height:100px"></div>
+            <h1 id="abstract">
+                Abstract:
+            </h1>
+                <p style="font-size: 25px;">
+                    Nowadays, “Open Source" and “Open Source License" are two words that are new to most beginner programmers. In this
+                    report, we discuss 3 main points: the definition of open source and open source license, the reason why an open source
+                    software still needs a license, and the information of 3 popular open source licenses which are GNU GPLv3, MIT License,
+                    Apache License 2.0.
+                </p>
+                <p style="font-size: 25px;">
+                    <b>In conclusion</b>, an open source software is a software of which source code is publicly modified by everyone following a
+                    policy contract between the authors and the users, called an open source license. Each open source license’s preamble
+                    regulates different permissions, conditions, and limitations to please different organizations' purposes or needs and to
+                    maintain the order of an open source environment. GNU GPLv3 is considered as a strict license. Otherwise, MIT License is
+                    the most simple and most used one. Apache License 2.0 is less strict than GNU GPLv3, and it has a grant of patent rights
+                    compared to MIT License.
+                </p>
+        </div>
+        <div style="height: 200px;"></div>
+    </div>
+
+    <div style="background-color:#379683;background-image:url(assets/strokes1.svg);background-repeat:repeat-y">
+        <div style="margin-left:300px;margin-right:50px;font-size:50px">
+            <div style="height:100px"></div>
+                <h1 id="opensource">
+                    What is open source?
+                </h1>
+                    <p style="font-size:25px">
+                        This term was introduced by Open Source Initiative in 
+                        the late 1990s in the context of software development to designate a specific approach to creating computer programs. Open source commonly 
+                        refers to a software people can together modify and share because it is designed to access publicly easily.
+                    </p>
+                    <p style="font-size:25px">
+                        Nowadays, not just open source software, “open source” designates a broader set of values or also called 
+                        “the open source way” like open source projects, or open source products which embrace and celebrate principles of 
+                        open exchange, collaborative participation, rapid prototyping, transparency, meritocracy, and community-oriented development. 
+                        But in this paper we will concentrate on open source in the context of computer programs: open source software.
+                    </p>
+                    <p style="font-size:25px">
+                        Open source software is a software where its source code can be edited by everyone to enhance or enrich that software. 
+                        We can understand that “source code” is a collection of coding lines written in a human-readable programming language that can manipulate how the software works.
+                        Therefore, if a person can access the source code, he/she can improve that program by adding features to it or fixing parts
+                        that don't always work correctly.
+                    </p>
+                <h2 style="font-size:45px">
+                    Examples:
+                </h2>
+                    <p style="font-size:25px">
+                        Many current popular programs, platforms, or languages are considered as an open source: Linux operating systems, Android by Google, Firefox browser, Moodle, WordPress. 
+                        Linux, for example, is the example par excellence of open source, and new programs can be created from its nucleus or kernel. 
+                        Or the opening of Android permits any developer to create 
+                        compatible applications. Consequently, thousands and thousands of applications exist to meet almost any need. Similarly, WordPress and 
+                        Firefox are open source implies
+                        that there exists an enormous variety of compatible plug-ins that were independently developed.
+                    </p>
+            <div style="height:200px"></div>
+        </div>
+    </div>
+
+
+    <div style="background-color:#5cdb95;background:url(assets/strokes2.svg);background-repeat:repeat-y">
+        <div style="margin-right:400px;margin-left:50px;font-size:50px;color:#05386b">
+            <div style="height:150px"></div>
+            <h1 id="license">
+                What is an open source license?
+            </h1>
+                <p style="font-size:25px">
+                    Open source license can be simply understood as a legal contract between the software’s authors and the users 
+                    which declares how that software is used in 
+                    commercial applications under specified conditions.
+                </p>
+                <p style="font-size:25px">
+                    Each open source license has different terms determining what the users can or cannot do with the software components and also their obligations. There are more 
+                    than 200 different open source licenses with various complexity and requirements, so you can choose which one is compatible with your organization’s policies to maintain the compliance.
+                </p>
+                <p style="font-size:25px">
+                    Open source license is mainly categorized into 2 kinds: copyleft and permissive. 
+                    Copyleft licenses only allow the users to use, modify, and share the work as long 
+                    as they still maintain the same kind of the opponent's license to the other users as well. Otherwise, with 
+                    permissive licenses, the users can freely modify, and redistribute open source code, 
+                    permitting its use in proprietary derivative works without requirement to use the same licences.
+                </p>
+        </div>
+        <div style="height:230px"></div>
+    </div>
+
+
+    <div style="background-color:#379683;background-image:url(assets/strokes3.svg);background-repeat:repeat-y">
+        <div style="margin-right:400px;margin-left:50px;font-size:50px">
+            <div style="height:100px"></div>
+            <h1 id="licensework">
+                How does an open source license work?
+            </h1>
+                <p style="font-size:25px">
+                    Most of popular open source licenses are authorized by Open Source Initiative (OSI) which is a non-profit corporation with global scope formed to 
+                    educate about and advocate for the benefits of open source, and to build bridges among different constituencies in the open source community.
+                </p>
+                <p style="font-size:25px;margin-bottom:0">
+                    An open source license would include 4 following statements:
+                </p>
+                <ul style="font-size:25px">
+                    <li>Software can be modified, used commercially, and distributed.</li>
+                    <li>Software can be modified, and used in private.</li>
+                    <li>A license and copyright notice must be included in the software.</li>
+                    <li>Software authors provide no warranty with the software and are not liable for anything.</li>
+                </ul>
+            <p style="font-size:25px;margin-top:0px">For further details of each license description,
+                visit this link: <a href="https://choosealicense.com/licenses/" target="_blank" class="link1">https://choosealicense.com/licenses/</a>
+                <br /> <br />An example of open source license from MIT License in Github:
+            </p>
+             <img src="assets/Image1.png" style="display:block;margin-left:auto;margin-right:auto" />
+        </div>
+        <div style="height:200px"></div>
+    </div>
+
+    <div style="background-image:url(assets/strokes4.svg);background-repeat:repeat-y">
+        <div style="font-size:46px;color:#05386b;margin-left:300px;margin-right:50px">
+            <div style="height:100px"></div>
+            <h1 id="stillneed">Why does an open source software still need a license?</h1>
+                <p style="font-size:25px">
+                    For those mentioned characteristics of open source software, open source license plays an important role in keeping an open source environment in order, 
+                    friendly and legal.  Using licenses can help the software owner to prevent some users’ illegal actions 
+                    and ensure an organized environment for everyone to
+                    contribute to make the project enhanced. Also, it let the owners and the users 
+                    define how the source code is used to support their further plans in the future.
+                </p>
+            <div style="height:120px"></div>
+        </div>
+    </div>
+
+
+    <div style="font-size:30px;background-color:#05386b;text-align:center">
+        <div id="example" style="height:30px"></div>
+        <h1>SOME POPULAR OPEN SOURCE LICENSES:</h1>
+        <div style="height:30px"></div>
+    </div>
+
+
+    <div style="background:#379683">
+        <div style="height:100px;justify-content:center"></div>
+        <table>
+            <tr style="background:#05386b">
+                <th colspan="2">Content</th>
+                <th>GNU GPLv3</th>
+                <th>MIT License</th>
+                <th>Apache License 2.0</th>
+            </tr>
+            <tr style="text-align:center;background:#054f6b">
+                <th rowspan="5">Permissions</th>
+                <td style="text-align:left;padding-left:20px">Commercial use</td>
+                <td>&#10004</td>
+                <td>&#10004</td>
+                <td>&#10004</td>
+            </tr>
+            <tr style="text-align:center;background:#054f6b">
+                <td style="text-align:left;padding-left:20px">Distribution</td>
+                <td>&#10004</td>
+                <td>&#10004</td>
+                <td>&#10004</td>
+            </tr>
+            <tr style="text-align:center;background:#054f6b">
+                <td style="text-align:left;padding-left:20px">Modification</td>
+                <td>&#10004</td>
+                <td>&#10004</td>
+                <td>&#10004</td>
+            </tr>
+            <tr style="text-align:center;background:#054f6b">
+                <td style="text-align:left;padding-left:20px">Patent use</td>
+                <td>&#10004</td>
+                <td>&#10008</td>
+                <td>&#10004</td>
+            </tr>
+            <tr style="text-align:center;background:#054f6b">
+                <td style="text-align:left;padding-left:20px">Private use</td>
+                <td>&#10004</td>
+                <td>&#10004</td>
+                <td>&#10004</td>
+            </tr>
+            <tr style="text-align:center;background:#05386b80">
+                <th rowspan="4">Conditions</th>
+                <td style="text-align:left;padding-left:20px">Disclose source</td>
+                <td>&#10004</td>
+                <td>&#10008</td>
+                <td>&#10008</td>
+            </tr>
+            <tr style="text-align:center;background:#05386b80">
+                <td style="text-align:left;padding-left:20px">License and copyright notice</td>
+                <td>&#10004</td>
+                <td>&#10004</td>
+                <td>&#10004</td>
+            </tr>
+            <tr style="text-align:center;background:#05386b80">
+                <td style="text-align:left;padding-left:20px">Same license</td>
+                <td>&#10004</td>
+                <td>&#10008</td>
+                <td>&#10008</td>
+            </tr>
+            <tr style="text-align:center;background:#05386b80">
+                <td style="text-align:left;padding-left:20px">State changes</td>
+                <td>&#10004</td>
+                <td>&#10008</td>
+                <td>&#10004</td>
+            </tr>
+            <tr style="text-align:center;background:#054f6b">
+                <th rowspan="3">Limitations</th>
+                <td style="text-align:left;padding-left:20px">Liability</td>
+                <td>Limited</td>
+                <td>Limited</td>
+                <td>Limited</td>
+            </tr>
+            <tr style="text-align:center;background:#054f6b">
+                <td style="text-align:left;padding-left:20px">Trademark use</td>
+                <td>&#10008</td>
+                <td>&#10008</td>
+                <td>&#10008</td>
+            </tr>
+            <tr style="text-align:center;background:#054f6b">
+                <td style="text-align:left;padding-left:20px">Warranty</td>
+                <td>&#10008</td>
+                <td>&#10008</td>
+                <td>&#10008</td>
+            </tr>
+        </table>
+        <div style="height:200px"></div>
+    </div>
+
+
+    <div style="background-image:url(assets/strokes2.svg);background-repeat:repeat-y">
+        <div style="font-size:45px;color:#05386b;margin-left:50px;margin-right:400px">
+            <div style="height:100px"></div>
+            <h1 id="gnu">GNU General Public License version 3 (GNU GPLv3)</h1>
+                <p style="font-size:25px">
+                    GNU GPLv3 is a strong copyleft license of which detail terms shown in the Table above. For full preamble: 
+                    <a href="https://choosealicense.com/licenses/gpl-3.0/" class="link2" target="_blank">https://choosealicense.com/licenses/gpl-3.0/</a>
+                </p>
+            <h2 style="font-size:45px">
+                Usage:
+            </h2>
+                <p style="font-size:25px">
+                    As with the other license forms, at a minimum, a text file must be included within the root of the source code that contains the license document, and 
+                    Free Software Foundation also recommends a boilerplate notification placed at the top or header section of each file within the software.
+                </p>
+                <img src="assets/GNU.png" style="display:block;margin-left:auto;margin-right:auto" />
+            <h2 style="font-size:45px">
+                Acceptance:
+            </h2>
+                <p style="font-size:25px">
+                    Typically permitted for commercial use, modification, distribution, and patent grants. However, users/licensee/collaborators are not permitted to hold anyone liable, 
+                    nor are they permitted to sublicense the work. Everyone is permitted to copy and distribute verbatim copies of the GPL license documents, but changing them is not allowed.
+                </p>
+            <h2 style="font-size:45px">
+                Examples:
+            </h2>
+                <p style="font-size:25px">
+                    Linux, Drupal, WordPress,...
+                </p>
+            <div style="height:200px"></div>
+        </div>
+    </div>
+
+
+    <div style="background-color:#379683;background-image:url(assets/strokes1.svg);background-repeat:repeat-y">
+        <div style="margin-left:300px;margin-right:50px;font-size:50px">
+            <div style="height:150px"></div>
+            <h1 id="mit">
+                MIT License
+            </h1>
+                <p style="font-size:25px">
+                    MIT License is a simple and short permissive license of which 
+                    detail terms shown in the Table above. For full preamble: 
+                    <a href="https://choosealicense.com/licenses/mit/" class="link1" target="_blank">https://choosealicense.com/licenses/mit/</a>
+                </p>
+            <h2 style="font-size:45px">
+                Usage:
+            </h2>
+                <p style="font-size:25px">
+                    Include a copy of it within the root of your source code or as a text file and include the 
+                    current year and full name or names of the creators/authors.
+                </p>
+                <img src="assets/MIT.png" style="display:block;margin-left:auto;margin-right:auto" />
+            <h2 style="font-size:45px">
+                Acceptance:
+            </h2>
+                <p style="font-size:25px">
+                    Typically the MIT License is suitable for commercial use, modification, distribution, and sublicensing. However, it is forbidden for licensees to hold the 
+                    licensor/author liable for any issues or outcomes.
+                </p>
+            <h2 style="font-size:45px">
+            Examples:
+            </h2>
+                <p style="font-size:25px">
+                    JQuery, Ruby on Rails, Fedora,...
+                </p>
+        </div>
+        <div style="height:200px"></div>
+    </div>
+    
+
+    <div style="background-image:url(assets/strokes2.svg);background-repeat:repeat-y">
+        <div style="margin-left:50px;margin-right:400px;color:#05386b;font-size:50px">
+            <div style="height:200px"></div>
+            <h1 id="apache">
+                Apache License 2.0
+            </h1>
+                <p style="font-size:25px">
+                    Apache License 2.0 is also a permissive license of which detail terms shown in the Table above. 
+                    Using Apache License 2.0, contributors can provide an express 
+                    grant of patent rights compared to MIT License. For full preamble: 
+                    <a href="https://choosealicense.com/licenses/apache-2.0/" class="link2" target="_blank">https://choosealicense.com/licenses/apache-2.0/</a>
+                </p>
+            <h2 style="font-size:45px">
+                Usage:
+            </h2>
+                <p style="font-size:25px">
+                    Must create a text file which is typically named “License” or “license.txt” for example, 
+                    and it must be included in the root of the source code, and you must 
+                    state any changes or version control as part of the code or documentation of the code. There is also a recommendation from the Apache Foundation that a 
+                    boilerplate statement be placed within the header of each source file stating the nature of the Apache License.
+                </p>
+            <img src="assets/Apache.png" style="display:block;margin-left:auto;margin-right:auto" />
+            <h2 style="font-size:45px">
+                Acceptance:
+            </h2>
+                <p style="font-size:25px">
+                    Most use cases of the Apache License are suitable for commercial use, modification, distribution, sublicensing, and patent grants. And like the previous license, users 
+                    are forbidden from holding anyone liable; however, in addition, users are prohibited from attaching a trademark for any use of the project or software code.
+                </p>
+            <h2 style="font-size:45px">
+                Examples:
+            </h2>
+                <p style="font-size:25px">
+                        Android, The Apache Software Foundation, Subversion (SVN), NuGet,...
+                </p>
+            <div style="height:200px"></div>
+        </div>
+    </div>    
+
+
+    <div style="background:#379683;font-size:50px;background-image:url(assets/strokes3.svg);background-repeat:repeat-y">
+        <div style="height:100px"></div>
+        <div style="margin-left:50px;margin-right:400px">
+            <h1 id="evaluation">
+                Evaluation:
+            </h1>
+                <p style="font-size:25px">
+                    Based on different conditions across various open source licenses, developers have a lot of options to choose the most compatible license to their project. 
+                    Each licence will have its advantages and disadvantages. Therefore, both the developers and the users must consider the license’s preamble carefully before 
+                    doing anything in order to avoid violating any illegal action.
+                </p>
+                <p style="font-size:25px">
+                    Here is some information about the usage and legal risk statistics of some most popular licenses:
+                </p>
+        </div>
+        <div style="height:100px"></div>
+        <table style="text-align:center">
+            <tr style="background:#05386b">
+                <th>
+                    Rank
+                </th>
+                <th>
+                    License
+                </th>
+                <th>Usage</th>
+                <th>
+                    Risk
+                </th>
+            </tr>
+            <tr style="background:#054f6b">
+                <td>1</td>
+                <td class="item_name">MIT License</td>
+                <td>32%</td>
+                <td>Low</td>
+            </tr>
+            <tr style="background:#054f6b">
+                <td>2</td>
+                <td class="item_name">GNU General Public License (GPL) 2.0</td>
+                <td>18%</td>
+                <td>High</td>
+            </tr>
+            <tr style="background:#054f6b">
+                <td>3</td>
+                <td class="item_name">Apache License 2.0</td>
+                <td>14%</td>
+                <td>Low</td>
+            </tr>
+            <tr style="background:#054f6b">
+                <td>4</td>
+                <td class="item_name">GNU General Public License (GPL) 3.0</td>
+                <td>7%</td>
+                <td>High</td>
+            </tr>
+            <tr style="background:#054f6b">
+                <td>5</td>
+                <td class="item_name">BSD License 2.0 (3-clause, New or Revised)</td>
+                <td>6%</td>
+                <td>Low</td>
+            </tr>
+            <tr style="background:#054f6b">
+                <td>6</td>
+                <td class="item_name">ISC License</td>
+                <td>5%</td>
+                <td>Low</td>
+            </tr>
+            <tr style="background:#054f6b">
+                <td>7</td>
+                <td class="item_name">Artistic License (Perl)</td>
+                <td>4%</td>
+                <td>Medium</td>
+            </tr>
+            <tr style="background:#054f6b">
+                <td>8</td>
+                <td class="item_name">GNU Lesser General Public License (LGPL) 2.1</td>
+                <td>4%</td>
+                <td>High</td>
+            </tr>
+            <tr style="background:#054f6b">
+                <td>9</td>
+                <td class="item_name">GNU Lesser General Public License (LGPL) 3.0</td>
+                <td>2%</td>
+                <td>High</td>
+            </tr>
+            <tr style="background:#054f6b">
+                <td>10</td>
+                <td class="item_name">Eclipse Public License (EPL)</td>
+                <td>1%</td>
+                <td>Medium</td>
+            </tr>
+        </table>
+        <div style="height:100px"></div>
+            
+        <div style="margin-left:50px;margin-right:400px">
+            <p style="font-size:25px">
+                In conclusion, if you are a developer, understanding about open source licenses can help you 
+                to protect and improve your project the way you want. 
+                If  you are a user, it can help you utilize your benefits and lower your legal risk.
+            </p>
+        </div>
+        <div style="height:200px"></div>
+    </div>
+
+
+    <div style="background:#05386b;display:flex">
+        <div style="height:50px"></div>
+        <div class="members">
+            <h1 style="font-size:45px" id="info">
+                Members:
+            </h1>
+                <p style="font-size:23px">
+                    Nguyễn Đỗ Phú Vinh - 2053590 <br />
+                    Trần Đỗ Đăng Khoa Khoa - 2053142 <br />
+                    Đặng Đức Trường - 2053551 <br />
+                    Lâm Gia Trúc - 2052764 <br />
+                </p>
+        </div>
+        <div style="background:#edf5e1;height:300px;width:2px;margin-top:auto;margin-bottom:auto"></div>
+        <div class="reference">
+            <h1 style="font-size:45px">
+                References used:
+            </h1>
+            <p style="font-size:25px">
+                <a href="https://www.freecodecamp.org/news/how-open-source-licenses-work-and-how-to-add-them-to-your-projects-34310c3cf94/" class="link3" target="_blank">https://www.freecodecamp.org/news/how-open-source-licenses-work-and-how-to-add-them-to-your-projects-34310c3cf94/</a>
+                <br /><a href="https://choosealicense.com/licenses/gpl-3.0/" class="link3" target="_blank">https://choosealicense.com/licenses/gpl-3.0/</a>
+                <br /><a href="https://www.gnu.org/licenses/gpl-3.0.html" class="link3" target="_blank">https://www.gnu.org/licenses/gpl-3.0.html</a>
+                <br /><a href="https://choosealicense.com/licenses/mit/" class="link3" target="_blank">https://choosealicense.com/licenses/mit/</a>
+                <br /><a href="https://choosealicense.com/licenses/apache-2.0/" class="link3" target="_blank">https://choosealicense.com/licenses/apache-2.0/</a>
+                <br /><a href="https://resources.whitesourcesoftware.com/blog-whitesource/open-source-licenses-trends-and-predictions" class="link3" target="_blank">https://resources.whitesourcesoftware.com/blog-whitesource/open-source-licenses-trends-and-predictions</a>
+                <br /><a href="https://www.synopsys.com/blogs/software-security/top-open-source-licenses/" class="link3" target="_blank">https://www.synopsys.com/blogs/software-security/top-open-source-licenses/</a>
+                <br /><a href="https://www.techrepublic.com/blog/web-designer/choosing-an-open-source-software-license-for-your-development-project/" class="link3" target="_blank">https://www.techrepublic.com/blog/web-designer/choosing-an-open-source-software-license-for-your-development-project/</a>
+                <br /><a href="https://choosealicense.com/licenses/" class="link3" target="_blank">https://choosealicense.com/licenses/</a>
+                <br /><a href="https://resources.whitesourcesoftware.com/blog-whitesource/open-source-licenses-explained" class="link3" target="_blank">https://resources.whitesourcesoftware.com/blog-whitesource/open-source-licenses-explained</a>
+                <br /><a href="https://sandstormit.com/the-purpose-and-scope-of-popular-open-source-software-licenses/" class="link3" target="_blank">https://sandstormit.com/the-purpose-and-scope-of-popular-open-source-software-licenses/</a>
+                <br /><a href="https://opensource.org/" class="link3" target="_blank">https://opensource.org/</a>
+                <br /><a href="https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/" class="link3" target="_blank">https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/</a>
+                <br /><a href="https://www.workana.com/i/glossary/what-is-open-source/" class="link3" target="_blank">https://www.workana.com/i/glossary/what-is-open-source/</a>
+            </p>
+        </div>
+    </div>
+
+
+    <script>
+        function open_menu() {
+            document.getElementById("sidemenu").style.width = "250px";
+            document.getElementById("sidemenu").style.overflow = "visible";
+            document.getElementById("sidemenu").style.boxShadow = "rgba(0,0,0,0.4) 5px 0px 25px 5px";
+        }
+        function close_menu() {
+            document.getElementById("sidemenu").style.width = "0";
+            document.getElementById("sidemenu").style.overflow = "hidden";
+            document.getElementById("sidemenu").style.boxShadow = "none";
+        }
+        function scrollto(bookmark) {
+            place = document.getElementById(bookmark);
+            place.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+    <script src="java.js"></script>
+</body>
+</html>
